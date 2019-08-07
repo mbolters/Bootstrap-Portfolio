@@ -44,4 +44,11 @@ footer{
 }
 .portbox {
     margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .portbox{-ms-flex:0 0 50%;flex:0 0 50%;max-width:40%}
 }
